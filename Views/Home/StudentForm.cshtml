@@ -5,5 +5,42 @@
 <h2>Student Information Form</h2>
 
 <form method="post">
-    <!-- Students will complete the form here -->
+    <form method="post">
+        <label for="fullname">Fullname</label>
+        <input type="text" id="fullname" name="fullname" /><br>
+
+        <label for="sno.">Student Number</label>
+        <input type="text" id="sno." name="sno." /><br />
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" /><br />
+
+        <label>Gender</label><br />
+
+        <label for="gender">Male</label>
+        <input type="radio" id="radio" name="radio" value="" /><br />
+
+        <label for="gender">Female</label>
+        <input type="radio" id="radio" name="radio" value="" /><br />
+
+        <label>Year Level</label>
+        <select id="yearlevel" name="yearlevel">
+            <option value="1st year">1st Year</option>
+            <option value="2nd year">2nd Year</option>
+            <option value="3rd year">3rd Year</option>
+            <option value="4th year">4th Year</option>
+        </select><br />
+
+        <label>Course</label>
+        <select id="course" name="course">
+            <option value="bscs">BSCS</option>
+            <option value="bsit">BSIT</option>
+            <option value="bsemc">BSEMC</option>
+        </select><br />
+
+        <label for="about">About Me</label>
+        <textarea id="about" name="about" value=""></textarea><br />
+
+        <label for="submit"></label>
+        <input type="submit" id="submit" name="submit" value="Submit" />
 </form>
